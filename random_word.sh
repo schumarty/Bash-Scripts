@@ -2,6 +2,8 @@
 
 DICTIONARY="/usr/share/dict/words"
 
+# This was the old way and too complicated
+#
 #POSSIBLE_WORDS=$(wc --lines $DICTIONARY | cut --fields=1 --delimiter=" ")
 #RANDOM_NUMBER=$(shuf --input-range=1-$POSSIBLE_WORDS --head-count=1)
 #
